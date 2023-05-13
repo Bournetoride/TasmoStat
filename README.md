@@ -1,4 +1,6 @@
 # TasmoStat
+Modified Tasmota Global to pass 3 DS18B20
+Modified timers to use sunset minute & current minute
 Modified XDV39 Thermostat to work with Solar Hot Water with 3 DS18B20 :- Manifold, Tank Top, Tank Bottom
 Morning setpoint is Tank Top + Hysteresis (4C)
 Afternoon setpoint gradually moves to Tank Bottom + 2* Hysteresis up to senset minute or minute 1111 when sun leaves manifold
